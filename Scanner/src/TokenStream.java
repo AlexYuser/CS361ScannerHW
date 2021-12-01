@@ -86,6 +86,7 @@ public class TokenStream {
 					return t;
 				} else {
 					t.setValue(t.getValue());
+					nextChar = readChar();
 					
 				}
 				return t;
@@ -99,6 +100,7 @@ public class TokenStream {
 					return t;
 				} else {
 					t.setValue(t.getValue());
+					nextChar = readChar();
 					
 				}
 				return t;
@@ -111,6 +113,7 @@ public class TokenStream {
 					return t;
 				} else {
 					t.setValue(t.getValue());
+					nextChar = readChar();
 					
 				}
 				return t;
@@ -124,7 +127,7 @@ public class TokenStream {
 					return t;
 				} else {
 					t.setValue(t.getValue());
-					
+					nextChar = readChar();
 				}
 				return t;
 				
@@ -137,6 +140,7 @@ public class TokenStream {
 					return t;
 				} else {
 					t.setValue(t.getValue());
+					nextChar = readChar();
 					
 				}
 				return t;
@@ -151,6 +155,7 @@ public class TokenStream {
 					return t;
 				} else {
 					t.setValue(t.getValue());
+					nextChar = readChar();
 					
 				}
 				return t;
@@ -164,6 +169,7 @@ public class TokenStream {
 					return t;
 				} else {
 					t.setValue(t.getValue());
+					nextChar = readChar();
 					
 				}
 				return t;
