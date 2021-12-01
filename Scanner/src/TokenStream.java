@@ -61,7 +61,9 @@ public class TokenStream {
 				while(!isEndOfLine(nextChar)) {
 					nextChar = readChar();
 				}
-
+				t.setValue("//");
+				t.setType("Comment");
+				return t;
 			} else {
 				// A slash followed by anything else must be an operator.
 				t.setValue("/");
